@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let i = 5
+    let total = 0;
+    let cout = 0;
+    while (i >=5) {
+        if (i % 5 == 0) {
+            total += i;
+
+            cout++
+            if (cout == 20) {
+                document.write(total);
+                break;
+            }
+        }
+        i += 5;
+    }
+</script>
+</body>
+</html>
